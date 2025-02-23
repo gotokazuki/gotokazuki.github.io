@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+@plugin '@tailwindcss/forms';
+
+@font-face {
+  font-family: 'Monaspace';
+  src: url('/fonts/MonaspaceKrypton-Regular.woff2') format('woff2'),
+       url('/fonts/MonaspaceKryptonFrozen-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Monaspace', monospace;
+}
